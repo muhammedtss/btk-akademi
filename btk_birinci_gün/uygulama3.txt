@@ -1,0 +1,73 @@
+INFO: User ahmet connected.
+LOGIN,ahmet
+PROCESS: Checking system permissions…
+ERROR: Permission denied for user ahmet
+INFO: Retrying operation…
+LOGIN,mehmet
+INFO: User mehmet session started
+WARNING: Slow response detected
+ERROR: Timeout occurred while processing request
+LOGOUT,ahmet
+DATA: Temporary cache write success
+LOGIN,ayse
+ERROR: Invalid token received from client
+INFO: Security team notified
+PROCESS: Background job started
+PROCESS: Background job finished
+LOGIN,burak
+LOGIN,irem
+ERROR: Database connection lost
+INFO: Reconnecting attempt 1
+INFO: Reconnecting attempt 2
+ERROR: Reconnection failed
+LOGIN,deniz
+DEBUG: System load is normal
+LOGOUT,mehmet
+LOGIN,melisa
+ERROR: Unknown command received -> "RUNNOW"
+TRACE: Stack snapshot recorded
+INFO: Request queued
+LOGIN,kerem
+ERROR: File write operation aborted
+WARN: Resource usage high
+CIKIS,kerem
+INFO: Kerem manually terminated session
+LOGIN,selin
+ERROR: API returned unexpected format
+INFO: JSON validator executed
+PROCESS: Normalization attempt
+ERROR: Normalization failed
+LOGIN,furkan
+INFO: Furkan uploaded file
+ERROR: Uploaded file corrupted
+LOGIN,furkan
+ERROR: Uploaded file corrupted
+LOGIN,furkan
+LOGOUT,furkan
+LOGIN,burcu
+ERROR: Access to module X restricted
+INFO: Policy enforcement active
+LOGIN,burcu
+LOGIN,burcu
+ERROR: Attempt to access forbidden parameter
+HATALI_SATIR
+LOGIN,zeynep
+PROCESS: Running cleanup
+ERROR: Cleanup operation failed
+INFO: Cleanup retry queued
+LOGIN,ali
+ERROR: Session token expired
+INFO: Token refresh scheduled
+LOGIN,ali
+LOGIN,ali
+DEBUG: Ali running task ID 5521
+ERROR: Task 5521 crashed at step 3
+INFO: Restarting job…
+LOGIN,arda
+INFO: System performing update check
+ERROR: Update server unreachable
+WARN: Update postponed
+LOGIN,arda
+LOGIN,arda
+INFO: Preparing logs
+ERROR: Log write failure

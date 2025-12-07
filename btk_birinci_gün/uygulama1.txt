@@ -1,0 +1,34 @@
+Python yazılım dünyasında yıllardır kullanılan güçlü bir programlama dilidir 
+Pythonun popülerliği her geçen gün artmaktadır çünkü Python hem esnek hem de öğrenmesi kolay bir yapıya sahiptir 
+Birçok geliştirici Python ile veri analizi makine öğrenimi derin öğrenme web geliştirme ve otomasyon süreçlerini yönetmektedir
+
+PYTHON kelimesi bazen python PyThOn veya PYthon gibi farklı şekillerde yazılsa da hepsi aynı anlama gelir
+Bu nedenle metin analizi yapılırken kelimelerin küçük harfe dönüştürülmesi oldukça önemlidir
+
+Ayrıca sadece harflerden oluşan kelimeler ile sayılar içeren kelimeleri ayırmak gerekir
+Örneğin 123abc test123 veri2025 abc123 gibi kelimeler analiz sırasında filtrelenebilir
+Buna karşılık tamamen alfabetik yapıya sahip olan kelimeler python veri analiz gelistirme daha doğru sonuçlar verir
+
+Uzunluğu 5 karakterden fazla olan kelimeler genellikle anlam taşıyan kelimelerdir
+Örneğin programlama gelistirme otomasyon populerlik kullanim analizler veriler gibi kelimeler bir metin içinde sıkça tekrar edebilir
+
+Metin analizi yapılırken bazı kelimeler diğerlerinden daha çok tekrar eder
+Python veri analiz geliştirme öğrenme gibi kelimeler özellikle teknik metinlerde sıkça geçer
+Bu nedenle en çok tekrar eden 3 kelimeyi bulmak metnin hangi konular üzerinde yoğunlaştığını gösterir
+
+Ayrıca alfabetik kelimeler arasında en çok tekrar eden kelimeyi bulmak da önemlidir
+Sayılardan oluşan veya karışık yapıdaki kelimeler bu analize dahil edilmez
+Örneğin 2025 99x data123 gibi kelimeler alfabetik olarak değerlendirilmez
+data123 data123 data123 data123 data123 data123 data123 data123 data123 data123 data123 data123 data123 data123 data123 data123 data123 data123 data123 
+Bu uzun metnin amacı yazdığınız Python fonksiyonunun
+ Noktalama işaretlerini temizlemesini
+ Kelimeleri küçük harfe dönüştürmesini
+ Kelime sayılarını doğru hesaplamasını
+ İlk 3 en sık kelimeyi bulmasını
+ Uzunluğu 5’ten büyük en tekrar eden kelimeyi belirlemesini
+ Sadece harflerden oluşan kelimeler arasında en çok geçen kelimeyi seçmesini
+ Ve toplam ile benzersiz kelime sayılarını ekrana yazmasını test etmektir
+
+Son olarak metin analizi uygulamaları gerçek hayat projelerinde sık kullanılır 
+Bu nedenle Python ile yazılan sade anlaşılır ve etkili bir analiz fonksiyonu çok değerlidir
+Bu metin test için hazırlanmış olup dilediğiniz gibi genişletilebilir
