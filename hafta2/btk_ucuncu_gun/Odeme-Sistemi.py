@@ -1,66 +1,3 @@
-'''   
-class PricingStrategy:
-    def calculate_price(self, base_price):
-        pass
-
-
-class NormalPricing(PricingStrategy):
-    def calculate_price(self, base_price):
-        return base_price
-   
-
-class StudentPricing(PricingStrategy):
-    def calculate_price(self, base_price):
-  
-
-class BlackFridayPricing(PricingStrategy):
-    def calculate_price(self, base_price):
-        return base_price * 0.70
-    
-
-
-class PaymentMethod:
-    def pay(self, amount):
-        pass
-
-
-class CreditCardPayment(PaymentMethod):
-    def pay(self, amount):
-        return f"{amount} TL kredi kartı ile ödendi."
-    
-class PayPalPayment(PaymentMethod):
-    def pay(self, amount):
-        return f"{amount} TL PayPal ile ödendi."
-    
-
-class Logger:
-    __instance = None
-
-    def __new__ (cls):
-        if cls.instance is None:
-            cls.instance = super (Logger, cls).__new__(cls)
-        return cls.instance
-    def log(self):
-        return f"Log kaydı oluşturuldu.{self}"
-    
-    
-class PaymentFactory:
-    @staticmethod
-    def create(payment:str)->PaymentMethod:
-        if payment == "credit_card":
-            return CreditCardPayment()
-        elif payment == "paypal":
-            return PayPalPayment()
-        else:
-            raise ValueError("Geçersiz ödeme yöntemi.")
-    
-
-price = PricingStrategy().base_price 
-payment_method = PaymentFactory.create(Payment_Method())
-final_price = StudentPricing().calculate_price(price)
-
-'''
-
 class Logger:
     instance = None
 
@@ -123,8 +60,3 @@ def process_payment(base_price:float, strategy:PricingStrategy, payment_method:s
 
 
 process_payment(100.0, StudentDiscount(), "credit_card")
-
-
-        
-        
-
